@@ -1,0 +1,11 @@
+plain.txt   存放待加密的明文
+cipher.txx  存放加密后的密文
+key.txt     存放的是密匙文件
+
+密匙文件存放规律：前26个字母为大写字母的乱序，后26个字母为小写字母的乱序
+例子中：
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+转变为如下
+IODESBKGACFWXHMVLUNJYQZPTRiodesbkgacfwxhmvlunjyqzptr
+
+具体原理请参考小甲鱼的《密码学》系列教程第二讲
